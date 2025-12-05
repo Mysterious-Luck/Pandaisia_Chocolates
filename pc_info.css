@@ -1,0 +1,103 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Tutorial Case
+   
+   Positioning Styles for the pc_info.html file
+   Author: Karl Ramjeet
+   Date: 12/4/25  
+   
+   Filename: pc_info.css
+
+*/
+
+
+/* Main Styles */
+main {
+   position: relative;
+   height: 1400px;
+   width: 100%;
+   overflow: auto;
+}
+
+
+/* Infographic Styles */
+div.infobox {
+   position: absolute;
+   display: none;
+}
+
+
+/* First Infographic */
+div#info1 {
+   display: block;
+   top: 20px;
+   left: 5%;
+   outline: 2px solid white;
+}
+
+
+/* Second Infographic */
+div#info2 {
+   display: block;
+   top: 185px;
+   left: 42%;
+   outline: 2px solid white;
+}
+
+
+/* Third Infographic */
+div#info3 {
+   display: block;
+   top: 135px;
+   left: 75%;
+   outline: 2px solid white;
+}
+
+
+/* Fourth Infographic */
+div#info4 {
+   display: block;
+   top: 510px;
+   left: 8%;
+   outline: 2px solid white;
+}
+
+
+/* Fifth Infographic */
+div#info5 {
+   display: block;
+   top: 800px;
+   left: 3%;
+   outline: 2px solid white;
+}
+
+
+/* Sixth Infographic */
+div#info6 {
+   display: block;
+   top: 600px;
+   left: 48%;
+   outline: 2px solid white;
+}
+
+
+/* Seventh Infographic */
+div#info7 {
+   display: block;
+   top: 1100px;
+   left: 10%;
+   outline: 2px solid white;
+}
+
+
+
+/* Eighth Infographic */
+div#info8 {
+   display: block;
+   top: 1100px;
+   left: 48%;
+   outline: 2px solid white;
+}
+
+
